@@ -1,0 +1,24 @@
+{
+  "name": "libjwt",
+  "version": "1.0.0",
+  "description": "JavaScript library to generate, sign and decode JSON Web Tokens (JWT) with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samhess/libjwt.git"
+  },
+  "keywords": [
+    "JSON Web Token",
+    "JWT",
+    "Node.js",
+  ],
+  "author": "Samuel Hess",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samhess/libjwt/issues"
+  },
+  "homepage": "https://github.com/samhess/libjwt#readme"
+}
