@@ -14,7 +14,7 @@ The secret is received via environment variable *JWT_SECRET*. If no value is pro
 ```js
 const jwt = require('libjwt')
 ```
-### Generate a token at Sign-in
+### Generate a Token at Sign-in
 ```js
 router.post('/login', (req,res)=> {
   let credentials = req.body
@@ -41,7 +41,7 @@ router.post('/login', (req,res)=> {
 })
  ```
  
- ### Verify the token as Express Middleware 
+ ### Verify the Token as Express Middleware 
 ```js
 module.exports = (req, res, next) => {
   return next()
