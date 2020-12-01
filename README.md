@@ -1,4 +1,4 @@
-# libjwt
+# modjwt
 JavaScript library (CommonJS Module) to generate, sign and decode JSON Web Tokens (JWT) with Node.js.
 * create: jwt.createToken(payload, lifetime in s)
 * decode: jwt.decodeToken(token)
@@ -8,11 +8,11 @@ JavaScript library (CommonJS Module) to generate, sign and decode JSON Web Token
 The secret is received via environment variable *JWT_SECRET*. If no value is provided, the secret is *Geheimnis*.
 
 ## Installation
-```npm i libjwt```
+```npm i modjwt```
 
 ## Usage
 ```js
-const jwt = require('libjwt')
+const jwt = require('modjwt')
 ```
 ### Generate a Token at Sign-in
 ```js

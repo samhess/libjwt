@@ -1,6 +1,6 @@
 {
-  "name": "libjwt",
-  "version": "1.0.0",
+  "name": "modjwt",
+  "version": "1.0.1",
   "description": "JavaScript library to generate, sign and decode JSON Web Tokens (JWT) with Node.js",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "JSON Web Token",
     "JWT",
-    "Node.js",
+    "Node.js"
   ],
   "author": "Samuel Hess",
   "license": "ISC",
